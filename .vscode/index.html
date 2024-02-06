@@ -11,7 +11,6 @@
     />
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-
     <title>Weather Search Project</title>
   </head>
   <body>
@@ -33,29 +32,31 @@
           <div>
             <h1 class="weather-app-city" id="city">Paris</h1>
             <p class="weather-app-details">
-              <div class ="date" id="date">Tuesday</div>
-              <div class ="time" id="time"> 14:49,</div>
-              <div class ="description" id="description">clouds</div> 
+              <span id="date">Tuesday </span>
+              <span id="time">14:49</span>,
+              <span id="description">scattered clouds</span>
               <br />
-              <div class="humidity" id="humidity"> Humidity: <strong>66%</strong>,</div><div class="wind" id="wind"> Wind: <strong>3.13km/h</strong></div>
+              Humidity: <strong id="humidity">66%</strong>, Wind:
+              <strong id="wind">3.13km/h</strong>
             </p>
           </div>
           <div class="weather-app-temperature-container">
-            <div class="weather-app-icon" id="icon">⛅</div>
-            <div class="weather-temperature" id="temperature">12</div>
-            <div class="weather-app-unit" >ºC</div>
+            <div class="weather-app-icon" id="icon">🌤️</div>
+            <div class="weather-app-temperature" id="temperature">12</div>
+            <div class="weather-app-unit">ºC</div>
           </div>
         </div>
       </main>
       <footer>
-        Coded by
+        This project was coded by
         <a href="https://github.com/thekristinadawn/" target="_blank">
           Kristina Palmer </a
         >is
         <a
           href="https://github.com/thekristinadawn/WeatherSearchProject"
           target="_blank"
-          >open-sourced on Github
+        >
+          open-sourced on Github
         </a>
         and
         <a href="https://myweathersearchproject.netlify.app/" target="_blank">
