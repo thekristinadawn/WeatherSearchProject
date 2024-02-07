@@ -80,6 +80,7 @@ main {
   line-height: 88px;
   font-weight: bold;
 }
+
 .weather-app-unit {
   margin-top: 6px;
   font-size: 28px;
@@ -89,10 +90,18 @@ main {
   margin-top: 20px;
   text-align: center;
 }
+
 .weather-forecast-date {
   font-size: 16px;
   color: #000;
   opacity: 0.5;
+}
+
+.weather-forecast-icon {
+  width: 88px;
+  height: 88px;
+  display: block;
+  margin: 0 auto;
 }
 
 .weather-forecast-temperature-min {
